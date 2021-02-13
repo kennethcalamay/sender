@@ -17,7 +17,8 @@ defmodule Sender do
   end
 
   def send_email("konnichiwa@world.com" = email) do
-    raise "Oops, couldn't send email to #{email}!"
+    #raise "Oops, couldn't send email to #{email}!"
+    :error
   end
 
   def send_email(email) do
